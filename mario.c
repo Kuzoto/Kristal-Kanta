@@ -5,7 +5,6 @@ void pyramid(void) {
     int n = h; //keeps track of number of blanks to print per row
     int x; //keeps track of current space in row
     for (int i = 0; i <= h; i++) { //repeat row print until i reaches height
-        n--; //decrease n by 1 each time a new row starts
         for (x = 0; x <= h; x++) { //repeat column print per row until x reaches height
             if (x > n) { //print # while x is > than n
                 printf("#");
@@ -14,6 +13,7 @@ void pyramid(void) {
             }
         }
         printf("\n"); //once row is printed begin new row
+        n--; //decrease n by 1 each time a new row starts
     }
 }
 int main(void)
