@@ -2,6 +2,23 @@
 #include <stdio.h>
 void pyramid(void) {
     int h = get_int("Please Input Height: "); //Prompts user for pyramid height and width
+    for (; ;) {
+        if (h > 0 && h < 9) {
+            break;
+        } else if(h < 1) {
+            h = get_int("Error Please Input Positive Height: ");
+            continue;
+        } else if(h > 8) {
+            h = get_int("Error Please Input Height Less Than 9: ");
+            continue;
+        } else if(h != int) {
+            h = get_int("Error Please Input Int: ");
+            continue;
+        } else {
+            h = get_int("Error Please Input Int: ");
+            continue;
+        }
+    }
     int n = h; //keeps track of number of blanks to print per row
     int x; //keeps track of current space in row
     for (int i = 0; i <= h; i++) { //repeat row print until i reaches height
