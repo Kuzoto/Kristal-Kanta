@@ -31,7 +31,7 @@ void pyramid(void)
     for (int i = 0; i < h; i++) //repeat row print until i reaches height
     {
         n--; //decrease n by 1 each time a new row starts
-        int t = h - n;
+        int t = h - n; //declares t as h subtracted by current n value
         for (x = 0; x <= h; x++) //repeat column print per row until x reaches height
         {
             if (x > n) //print # while x is > than n
@@ -43,15 +43,15 @@ void pyramid(void)
                 printf(" ");
             }
         }
-        printf(" ");
-        printf(" ");
-        for(int r = 0; r <= h; r++) 
+        printf(" "); //prints space
+        printf(" "); //prints space
+        for (int r = 0; r <= h; r++) //runs mirror row print until r = 8 or exitted
         {
-            if (r < t)
+            if (r < t) //checks if r is less than t and if it is prints a #
             {
                 printf("#");
             }
-            else if (r > t)
+            else if (r > t) //checks if r > than t if it is it exits loop
             {
                 break;
             }
