@@ -53,7 +53,7 @@ void pyramid(void)
             }
             else if (r > t)
             {
-                printf(" ");
+                break;
             }
         }
         printf("\n"); //once row is printed begin new row
