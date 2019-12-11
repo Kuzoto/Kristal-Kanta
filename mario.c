@@ -27,7 +27,7 @@ void pyramid(void) {
         for (x = 0; x <= h; x++) { //repeat column print per row until x reaches height
             if (x > n) { //print # while x is > than n
                 printf("#");
-            } else { //if x is less than n print a blank space
+            } else if(x < n) { //if x is less than n print a blank space
                 printf(" ");
             }
         }
