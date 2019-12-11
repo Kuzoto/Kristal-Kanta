@@ -1,5 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+
 void pyramid(void) {
     int h = get_int("Please Input Height: "); //Prompts user for pyramid height and width
     for (; ;) {
@@ -10,9 +14,6 @@ void pyramid(void) {
             continue;
         } else if(h > 8) {
             h = get_int("Error Please Input Height Less Than 9: ");
-            continue;
-        } else if(h != int) {
-            h = get_int("Error Please Input Int: ");
             continue;
         } else {
             h = get_int("Error Please Input Int: ");
