@@ -51,11 +51,13 @@ void changeCoins(void)
             break;
         }
     }
-    coinCount = qAmt + dAmt + nAmt + pAmt;
-    printf("Total Coins: %i\n", coinCount);
+    if (coins == 0) {
+        coinCount = qAmt + dAmt + nAmt + pAmt;
+        printf("Total Coins: %i\n", coinCount);
+        printf("Quarters: %i\nDimes: %i\nNickels: %i\nPennies: %i\n", qAmt, dAmt, nAmt, pAmt);
+    }
 }
 int main(void)
 {
     changeCoins();
-    printf("Quarters: %i\nDimes: %i\nNickels: %i\nPennies: %i\n", qAmt, dAmt, nAmt, pAmt);   
 }
