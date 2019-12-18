@@ -47,6 +47,8 @@ void changeCoins(void)
             {
                 break;
             }
+        } else {
+            break;
         }
     }
     coinCount = qAmt + dAmt + nAmt + pAmt;
