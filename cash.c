@@ -15,7 +15,16 @@ float change;
 int coinCount;
 void changeCoins(void)
 {
-    change = get_float("Change Owed: ");
+    for(; ;)
+    {
+        change = get_float("Change Owed: ");
+        if (change < 0)
+        {
+            continue;
+        } else {
+            break;
+        }
+    }
     int coins = round(change * 100);
     for(; ;) {
         if (coins >= qCoin)
