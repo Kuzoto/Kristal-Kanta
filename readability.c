@@ -44,10 +44,10 @@ void sortText()
 }
 void gradeText()
 {
-    float wAvg = 100 / wNum;
-    float L = lNum * wAvg;
-    float S = sNum * wAvg;
-    float index = 0.0588 * L - 0.296 * S - 15.8;
+    double wAvg = 100 / wNum;
+    double L = lNum * wAvg;
+    double S = sNum * wAvg;
+    double index = 0.0588 * L - 0.296 * S - 15.8;
     if (index >= 1 && index < 16)
     {
         printf("Grade %.0f\n", index);
