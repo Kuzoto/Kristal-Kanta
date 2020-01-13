@@ -51,7 +51,7 @@ void gradeText()
     if (index >= 1 && index < 16)
     {
         printf("Grade %.0f\n", index);
-    } else if (index < 1) {
+    } else if (index <= 0) {
         printf("Before Grade 1\n");
     } else if (index >= 16) {
         printf("Grade 16+\n");
