@@ -47,16 +47,20 @@ void gradeText()
     float wAvg = 100 / wNum;
     float L = lNum * wAvg;
     float S = sNum * wAvg;
-    int index = 0.0588 * L - 0.296 * S - 15.8;
-    if (index >= 1 && index < 16)
+    float index = 0.0588 * L - 0.296 * S - 15.8;
+    index = index + 1;
+    if (index > 1 && index < 16)
     {
-        printf("Grade %i\n", index);
-    } else if (index <= 0) {
+        printf("Grade %.0f\n", index);
+    } else if (index <= 0)
+    {
         printf("Before Grade 1\n");
-    } else if (index >= 16) {
+    } else if (index >= 16)
+    {
         printf("Grade 16+\n");
-    } else {
-        printf("Index Error: 42\nGrading has returned %i due to an error\n", index);
+    } else
+    {
+        printf("Index Error: 42\nGrading has returned %f due to an error\n", index);
         string response = get_string("Would you like to exit the program or retry?(exit/restart)");
         if (response[0] == 'e' || response[0] == 'E') {
             exit(1);
