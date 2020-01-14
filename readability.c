@@ -26,7 +26,6 @@ void sortText()
             } else if (text[i] == '?' || text[i] == '!' || text[i] == '.')
             {
                 sNum++;
-                lNum++;
                 spaces = 0;
                 words = 0;
             } else if (text[i] == '\0')
@@ -44,11 +43,11 @@ void sortText()
                     words++;
                 }
                 spaces = 0;
-            //} else if (text[i] == ';' || text[i] == ':' || text[i] == ',')
-            //{
-               // lNum++;
-                //spaces = 0;
-                //words = 0;
+            } else if (text[i] == ';' || text[i] == ':' || text[i] == ',')
+            {
+                lNum++;
+                spaces = 0;
+                words = 0;
             } else {
                 spaces = 0;
                 words = 0;
@@ -81,12 +80,12 @@ void gradeText()
             sortText();
         }
     }
-    //printf("Sentences: %.0f\n", sNum);
-    //printf("Words: %.0f\n", wNum);
-    //printf("Letters: %.0f\n", lNum);
+    printf("Sentences: %.0f\n", sNum);
+    printf("Words: %.0f\n", wNum);
+    printf("Letters: %.0f\n", lNum);
     //printf("L: %f\n", L);
     //printf("S: %f\n", S);
-    //printf("Index: %f\n", index);
+    printf("Index: %f\n", index);
 }
 
 int main(void)
