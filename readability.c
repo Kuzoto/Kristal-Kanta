@@ -15,16 +15,19 @@ void sortText()
 {
     string text = get_string("Please Input Text to be Analyzed:\n");
     int spaces = 0;
+    int words = 0;
         for(i = 0; spaces < 3; i++)
         {
             if(text[i] >= 'A' && text[i] <= 'Z')
             {
                 lNum++;
                 spaces = 0;
+                words = 0;
             } else if (text[i] == '?' || text[i] == '!' || text[i] == '.')
             {
                 sNum++;
                 spaces = 0;
+                words = 0;
             } else if (text[i] == '\0')
             {
                 spaces = spaces + 1;
@@ -32,12 +35,17 @@ void sortText()
             {
                 lNum++;
                 spaces = 0;
+                words = 0;
             } else if (text[i] == ' ')
             {
-                wNum++;
+                if (words == 0) {
+                    wNum++;
+                    words++;
+                }
                 spaces = 0;
             } else {
                 spaces = 0;
+                words = 0;
             }
         }
         gradeText();
@@ -47,10 +55,10 @@ void gradeText()
     float wAvg = 100 / wNum;
     float L = lNum * wAvg;
     float S = sNum * wAvg;
-    float index = 0.0588 * L - 0.296 * S - 15.8;
+    float index = (0.0588 * L) - (0.296 * S) - 15.8;
     if (index > 1 && index < 16)
     {
-        printf("Grade %.0f\n", index);
+        printf("Grade %.0f\n", round(index));
     } else if (index <= 0)
     {
         printf("Before Grade 1\n");
@@ -67,9 +75,9 @@ void gradeText()
             sortText();
         }
     }
-    //printf("Sentences: %.0f\n", sNum);
-    //printf("Words: %.0f\n", wNum);
-    //printf("Letters: %.0f\n", lNum);
+    printf("Sentences: %.0f\n", sNum);
+    printf("Words: %.0f\n", wNum);
+    printf("Letters: %.0f\n", lNum);
 }
 
 int main(void)
