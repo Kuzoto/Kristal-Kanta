@@ -75,9 +75,9 @@ void gradeText()
             sortText();
         }
     }
-    printf("Sentences: %.0f\n", sNum);
-    printf("Words: %.0f\n", wNum);
-    printf("Letters: %.0f\n", lNum);
+    //printf("Sentences: %.0f\n", sNum);
+    //printf("Words: %.0f\n", wNum);
+    //printf("Letters: %.0f\n", lNum);
 }
 
 int main(void)
