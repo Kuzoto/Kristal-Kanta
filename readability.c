@@ -44,7 +44,7 @@ void sortText()
                     words++;
                 }
                 spaces = 0;
-            } else if(text[i] == ';' || text[i] == ',' || text[i] == ':') {
+            } else if(text[i] == ';' || text[i] == '?' || text[i] == ':') {
                 lNum++;
                 spaces = 0;
             } else {
