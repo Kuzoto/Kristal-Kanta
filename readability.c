@@ -52,13 +52,13 @@ void sortText()
 }
 void gradeText()
 {
-    float wAvg = 100 / wNum;
-    float L = lNum * wAvg;
-    float S = sNum * wAvg;
-    float index = (0.0588 * L) - (0.296 * S) - 15.8;
+    double wAvg = 100 / wNum;
+    double L = lNum * wAvg;
+    double S = sNum * wAvg;
+    double index = (0.0588 * L) - (0.296 * S) - 15.8;
     if (index >= 1 && index < 16)
     {
-        printf("Grade %.0f\n", round(index));
+        printf("Grade %.0f\n", round(index) + 1);
     } else if (index < 1)
     {
         printf("Before Grade 1\n");
@@ -75,9 +75,12 @@ void gradeText()
             sortText();
         }
     }
-    //printf("Sentences: %.0f\n", sNum);
-    //printf("Words: %.0f\n", wNum);
-    //printf("Letters: %.0f\n", lNum);
+    printf("Sentences: %.0f\n", sNum);
+    printf("Words: %.0f\n", wNum);
+    printf("Letters: %.0f\n", lNum);
+    printf("L: %f\n", L);
+    printf("S: %f\n", S);
+    printf("Index: %f\n", index);
 }
 
 int main(void)
