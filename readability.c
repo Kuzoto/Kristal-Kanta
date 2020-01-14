@@ -26,6 +26,7 @@ void sortText()
             } else if (text[i] == '?' || text[i] == '!' || text[i] == '.')
             {
                 sNum++;
+                lNum++;
                 spaces = 0;
                 words = 0;
             } else if (text[i] == '\0')
@@ -43,6 +44,11 @@ void sortText()
                     words++;
                 }
                 spaces = 0;
+            //} else if (text[i] == ';' || text[i] == ':' || text[i] == ',')
+            //{
+               // lNum++;
+                //spaces = 0;
+                //words = 0;
             } else {
                 spaces = 0;
                 words = 0;
