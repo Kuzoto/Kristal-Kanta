@@ -3,6 +3,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 double lNum = 0;
 double wNum = 1;
@@ -43,11 +44,9 @@ void sortText()
                     words++;
                 }
                 spaces = 0;
-            } else if (text[i] == '?' || text[i] == ',')
-            {
+            } else if(text[i] == ';' || text[i] == ',' || text[i] == ':') {
                 lNum++;
                 spaces = 0;
-                words = 0;
             } else {
                 spaces = 0;
                 words = 0;
