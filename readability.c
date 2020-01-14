@@ -75,12 +75,12 @@ void gradeText()
             sortText();
         }
     }
-    printf("Sentences: %.0f\n", sNum);
-    printf("Words: %.0f\n", wNum);
-    printf("Letters: %.0f\n", lNum);
-    printf("L: %f\n", L);
-    printf("S: %f\n", S);
-    printf("Index: %f\n", index);
+    //printf("Sentences: %.0f\n", sNum);
+    //printf("Words: %.0f\n", wNum);
+    //printf("Letters: %.0f\n", lNum);
+    //printf("L: %f\n", L);
+    //printf("S: %f\n", S);
+    //printf("Index: %f\n", index);
 }
 
 int main(void)
