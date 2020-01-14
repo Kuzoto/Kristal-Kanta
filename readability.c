@@ -48,7 +48,6 @@ void gradeText()
     float L = lNum * wAvg;
     float S = sNum * wAvg;
     float index = 0.0588 * L - 0.296 * S - 15.8;
-    index = index + 1;
     if (index > 1 && index < 16)
     {
         printf("Grade %.0f\n", index);
