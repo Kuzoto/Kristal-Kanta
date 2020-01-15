@@ -35,10 +35,10 @@ void sortText()
                 spaces = spaces + 1;
             } else if (i < n - 1 && isspace(text[i]) && isalnum(text[i + 1]))
             {
-                //if (words == 0) {
+                if (words == 0) {
                     wNum++;
                     words++;
-               // }
+                }
                 spaces = 0;
             //} else if(text[i] == ',') {
                // lNum++;
