@@ -15,6 +15,7 @@ void gradeText();
 void sortText()
 {
     string text = get_string("Please Input Text to be Analyzed:\n");
+    int n = strlen(text);
     int spaces = 0;
     int words = 0;
         for(i = 0; spaces < 3; i++)
@@ -24,7 +25,7 @@ void sortText()
                 lNum++;
                 spaces = 0;
                 words = 0;
-            } else if ((text[i] == '?' || text[i] == '!' || text[i] == '.') && isalnum(text[i - 1]))
+            } else if (i > 0 && (text[i] == '?' || text[i] == '!' || text[i] == '.') && isalnum(text[i - 1]))
             {
                 sNum++;
                 spaces = 0;
@@ -32,12 +33,12 @@ void sortText()
             } else if (text[i] == '\0')
             {
                 spaces = spaces + 1;
-            } else if (isspace(text[i]) && isalnum(text[i + 1]))
+            } else if (i < n - 1 && isspace(text[i]) && isalnum(text[i + 1]))
             {
-                if (words == 0) {
+                //if (words == 0) {
                     wNum++;
                     words++;
-                }
+               // }
                 spaces = 0;
             //} else if(text[i] == ',') {
                // lNum++;
