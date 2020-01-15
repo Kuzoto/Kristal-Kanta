@@ -35,10 +35,10 @@ void sortText()
                 spaces = spaces + 1;
             } else if (i < n - 1 && isspace(text[i]) && isalnum(text[i + 1]))
             {
-                if (words == 0) {
+                //if (words == 0) {
                     wNum++;
                     words++;
-                }
+               // }
                 spaces = 0;
             //} else if(text[i] == ',') {
                // lNum++;
@@ -52,14 +52,12 @@ void sortText()
 }
 void gradeText()
 {
-    double wAvg = 100 / wNum;
-    double L = lNum * wAvg;
-    double S = sNum * wAvg;
-    double index = (0.0588 * L) - (0.296 * S) - 15.8;
-    if (index < 16)
+
+    double index = 0.0588 * (100 * lNum / wNum) - 0.296 * (100 * sNum / wNum) - 15.8;
+    if (index >= 1 && index < 16)
     {
         printf("Grade %.0f\n", round(index));
-    } else if (index <= 1)
+    } else if (index < 1)
     {
         printf("Before Grade 1\n");
     } else if (index >= 16)
