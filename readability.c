@@ -33,7 +33,7 @@ void sortText()
             } else if (text[i] == '\0')
             {
                 spaces = spaces + 1;
-            } else if (i < n - 1 && isspace(text[i]) && isalnum(text[i + 1]))
+            } else if (isspace(text[i]) && isalnum(text[i + 1]))
             {
                 if (words == 0) {
                     wNum++;
