@@ -18,7 +18,7 @@ void sortText()
     int n = strlen(text);
     int spaces = 0;
     int words = 0;
-        for(i = 0; spaces < 3; i++)
+        for(i = 0; i < n; i++)
         {
             if(isalnum(text[i]))
             {
