@@ -9,7 +9,7 @@ double lNum = 0;
 double wNum = 1;
 double sNum = 0;
 int i = 0;
-int x = 0;
+
 void gradeText();
 
 void sortText()
@@ -44,7 +44,7 @@ void sortText()
                     words++;
                 }
                 spaces = 0;
-            } else if(text[i] == ';' || text[i] == '?' || text[i] == ',') {
+            } else if(text[i] == ';' || text[i] == ',' || text[i] == ':' || text[i] == '?') {
                 lNum++;
                 spaces = 0;
             } else {
