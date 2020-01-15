@@ -25,7 +25,7 @@ void sortText()
                 lNum++;
                 spaces = 0;
                 words = 0;
-            } else if (i > 0 && (text[i] == '?' || text[i] == '!' || text[i] == '.') && isalnum(text[i - 1]))
+            } else if ((text[i] == '?' || text[i] == '!' || text[i] == '.') && isalnum(text[i - 1]))
             {
                 sNum++;
                 spaces = 0;
