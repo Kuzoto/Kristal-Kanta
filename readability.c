@@ -39,7 +39,7 @@ void sortText()
                     words++;
                 }
                 spaces = 0;
-            } else if(text[i] == ';') {
+            } else if(text[i] == ',') {
                 lNum++;
                 spaces = 0;
             } else {
