@@ -19,12 +19,12 @@ void sortText()
     int words = 0;
         for(i = 0; spaces < 3; i++)
         {
-            if(text[i] >= 'A' && text[i] <= 'Z')
+            if(isalnum(text[i]))
             {
                 lNum++;
                 spaces = 0;
                 words = 0;
-            } else if (text[i] == '?' || text[i] == '!' || text[i] == '.')
+            } else if ((text[i] == '?' || text[i] == '!' || text[i] == '.') && isalnum(text[i - 1]))
             {
                 sNum++;
                 spaces = 0;
@@ -32,21 +32,16 @@ void sortText()
             } else if (text[i] == '\0')
             {
                 spaces = spaces + 1;
-            } else if(text[i] >= 'a' && text[i] <= 'z')
-            {
-                lNum++;
-                spaces = 0;
-                words = 0;
-            } else if (text[i] == ' ')
+            } else if (isspace(text[i]) && isalnum(text[i + 1]))
             {
                 if (words == 0) {
                     wNum++;
                     words++;
                 }
                 spaces = 0;
-            } else if(text[i] == ';' || text[i] == ',' || text[i] == ':' || text[i] == '?') {
-                lNum++;
-                spaces = 0;
+            //} else if(text[i] == ';' || text[i] == ',' || text[i] == ':' || text[i] == '?') {
+                //lNum++;
+                //spaces = 0;
             } else {
                 spaces = 0;
                 words = 0;
