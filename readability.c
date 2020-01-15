@@ -57,8 +57,8 @@ void sortText()
 void gradeText()
 {
     double wAvg = 100 / wNum;
-    double L = lNum * wAvg;
-    double S = sNum * wAvg;
+    double L = 100 * lNum / wNum;
+    double S = 100 *sNum / wNum;
     double index = (0.0588 * L) - (0.296 * S) - 15.8;
     if (index >= 1 && index < 16)
     {
