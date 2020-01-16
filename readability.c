@@ -33,15 +33,15 @@ void sortText()
             } else if (text[i] == '\0')
             {
                 spaces = spaces + 1;
-            } else if (isspace(text[i]) && isalnum(text[i + 1]))
+            } else if (isspace(text[i]))
             {
                 if (words == 0) {
                     wNum++;
                     words++;
                 }
                 spaces = 0;
-            //} else if(text[i] == ',') {
-               // lNum++;
+            //} else if(text[i] == '"' || text[i] == ':') {
+                //lNum++;
                 //spaces = 0;
             } else {
                 spaces = 0;
