@@ -30,14 +30,17 @@ int main(int argc, string argv[])
             if (isalpha(input[i])) {
                 if(isupper(input[i])) {
                     y = 2;
+                    x = input[i] - 65;
+                    change = (x + key) % 26;
+                    cipher[i] = change + 65;
                 } else if (islower(input[i])) {
                     y = 1;
+                    x = input[i] - 97;
+                    change = (x + key) % 26;
+                    cipher[i] = change + 97;
                 }
-                x = input[i] - 65;
-                change = (x + key) % 26;
-                cipher[i] = change + 65;
                 if (y == 1) {
-                    cipher[i] = cipher[i] + 32;
+                    //cipher[i] = cipher[i] + 32;
                     printf("%c", cipher[i]);
                 }
                 else {
