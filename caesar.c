@@ -17,6 +17,7 @@ int main(int argc, string argv[])
         int key = atoi(k);
         if (key < 1) {
         printf("Usage: ./caesar key\n");
+        exit(1);
         }
         string input = get_string("Plaintext: ");
         int inputLen = strlen(input);
@@ -24,7 +25,7 @@ int main(int argc, string argv[])
         int x = 0;
         int y = 0;
         int change = 0;
-        printf("Ciphertext: ");
+        printf("ciphertext: ");
         for (int i = 0; i < inputLen; i++)
         {
             if (isalpha(input[i])) {
@@ -55,5 +56,6 @@ int main(int argc, string argv[])
         //atos(cipher);
     } else {
         printf("Usage: ./caesar key\n");
+        exit(1);
     }
 }
