@@ -15,7 +15,19 @@ int main(int argc, char *argv[])
         //int atoi(const char *argv);
         string k = argv[1];
         int keylen = strlen(k);
-        printf("%i\n", keylen);
+        for (int t = 0; t < keylen; t++) {
+            if (!isalpha(k[t])) {
+                printf("Key must contain 26 LETTERS\n");
+                exit(1);
+            } else {
+                for (int r = 0; r < keylen; r++) {
+                    if(k[t] == k[r]) {
+                        printf("Key must contain 26 Unique Letters\n");
+                        exit(1);
+                    }
+                }
+            }
+        }
         //int key = atoi(k);
         if (keylen < 26) {
         printf("Key must contain 26 characters\n");
