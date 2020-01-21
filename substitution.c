@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
                 exit(1);
             } else {
                 for (int r = 0; r < keylen; r++) {
-                    if(k[t] == k[r]) {
+                    if(k[t] == k[r] && t != r) {
                         printf("Key must contain 26 Unique Letters\n");
                         exit(1);
                     }
