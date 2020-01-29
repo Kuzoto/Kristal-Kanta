@@ -105,35 +105,14 @@ void print_winner(void)
     }
     if (p == 1)
     {
-        printf("Winner: %s", winners[0]);
-    } else if (p == 2)
-    {
-        printf("Winners: ");
-        for(int w = 0; w < p; w++)
-        {
-            if (w == 0)
-            {
-                printf("%s", winners[w]);
-            } else
-            {
-                printf(" and %s", winners[w]);
-            }
-        }
+        printf("Winner: %s\n", winners[0]);
     } else
     {
-        printf("Winners: ");
         for(int w = 0; w < p; w++)
         {
-            if (w == 0)
-            {
-                printf("%s", winners[w]);
-            } else
-            {
-                printf(", %s", winners[w]);
-            }
+                printf("Winner: %s\n", winners[w]);
         }
     }
-    printf("\n");
     return;
 }
 
