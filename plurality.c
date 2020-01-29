@@ -83,7 +83,7 @@ void print_winner(void)
     string winners[9];
     int t = 0;
     int p = 0;
-    printf("Winner: \n");
+    printf("Winners: ");
     for (int y = 0; y < candidate_count; y++)
     {
         for (int r = 0; r < candidate_count; r++)
@@ -99,10 +99,20 @@ void print_winner(void)
         }
         if (t > 0)
         {
-            printf("%s\n", candidates[y].name);
-            t = 0;
+            if (p == 0)
+            {
+                printf("%s ", candidates[y].name);
+                t = 0;
+                p++;
+            } else if (p > 0)
+            {
+                printf("and %s ", candidates[y].name);
+                t = 0;
+                p++;
+            }
         }
     }
+    printf("\n");
     return;
 }
 
