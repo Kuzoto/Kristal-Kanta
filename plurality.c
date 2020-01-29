@@ -105,12 +105,12 @@ void print_winner(void)
     }
     if (p == 1)
     {
-        printf("Winner: %s\n", winners[0]);
+        printf("%s\n", winners[0]);
     } else
     {
         for(int w = 0; w < p; w++)
         {
-                printf("Winner: %s\n", winners[w]);
+                printf("%s\n", winners[w]);
         }
     }
     return;
