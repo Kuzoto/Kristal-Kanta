@@ -96,7 +96,7 @@ void print_winner(void)
                 t--;
             }
         }
-        if (t > 0)
+        if (t > 1)
         {
                 winners[p] = candidates[y].name;
                 t = 0;
