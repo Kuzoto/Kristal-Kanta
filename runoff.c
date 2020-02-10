@@ -212,11 +212,13 @@ bool is_tie(int min)
             if (candidates[x].votes == min)
             {
                 s = true;
+            } else {
+                s = false;
+                break;
             }
         } else
         {
             s = false;
-            return s;
             break;
         }
     }
@@ -228,13 +230,10 @@ void eliminate(int min)
 {
     for (int x = 0; x < candidate_count; x++)
     {
-        if (!candidates[x].eliminated)
-        {
             if (candidates[x].votes == min)
             {
                 candidates[x].eliminated = true;
             }
-        }
     }
     return;
 }
