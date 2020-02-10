@@ -213,7 +213,7 @@ bool is_tie(int min)
             }
         }
     }
-    if (s > 1)
+    if (s > 1 && s < candidate_count/2)
     {
         k = true;
     } else {
