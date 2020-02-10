@@ -213,6 +213,7 @@ bool is_tie(int min)
         } else
         {
             s = false;
+            return s;
             break;
         }
     }
