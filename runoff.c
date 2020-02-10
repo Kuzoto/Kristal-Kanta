@@ -155,7 +155,12 @@ void tabulate(void)
                 }
             } else {
                 v++;
-                continue;
+                if (!strcmp(candidates[x].name, candidates[preferences[r][v]].name))
+                {
+                    candidates[x].votes++;
+                    printf("%s: %i\n", candidates[x].name, candidates[x].votes);
+                    v = 0;
+                }
             }
         }
     }
