@@ -147,10 +147,15 @@ void tabulate(void)
         {
             if (!candidates[x].eliminated)
             {
+                if (candidates[preferences[r][v]].eliminated)
+                {
+                    v++;
+                }
                 if (!strcmp(candidates[x].name, candidates[preferences[r][v]].name))
                 {
                     candidates[x].votes++;
                     printf("%s: %i\n", candidates[x].name, candidates[x].votes);
+                    v = 0;
                 }
             }
         }
