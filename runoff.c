@@ -216,12 +216,12 @@ bool is_tie(int min)
             if (candidates[x].votes == min)
             {
                 s++;
-            } else {
-                q++;
             }
+        } else {
+            q++;
         }
     }
-    if (s > 1 && q < candidate_count - s)
+    if (s == candidate_count - q)
     {
         k = true;
     } else {
