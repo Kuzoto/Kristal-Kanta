@@ -232,9 +232,9 @@ void eliminate(int min)
     {
             if (candidates[x].votes == min)
             {
-                candidates[x].votes = 0;
                 candidates[x].eliminated = true;
             }
+            candidates[x].votes = 0;
     }
     return;
 }
