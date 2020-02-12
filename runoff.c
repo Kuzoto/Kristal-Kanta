@@ -171,14 +171,16 @@ bool print_winner(void)
     int p = voter_count / 2;
     for (int y = 0; y < candidate_count; y++)
     {
-            if (candidates[y].votes > p)
-            {
-                fprintf(stdout, "%s\n", candidates[y].name);
-                t = true;
-                break;
-            } else {
-                t = false;
-            }
+        if (candidates[y].votes > p)
+        {
+            fprintf(stdout, "%s\n", candidates[y].name);
+            t = true;
+            break;
+        }
+        else
+        {
+            t = false;
+        }
     }
     return t;
 }
@@ -209,7 +211,7 @@ bool is_tie(int min)
     int s = 0;
     int q = 0;
     bool k;
-    for(int x = 0; x < candidate_count; x++)
+    for (int x = 0; x < candidate_count; x++)
     {
         if (!candidates[x].eliminated)
         {
@@ -217,14 +219,18 @@ bool is_tie(int min)
             {
                 s++;
             }
-        } else {
+        }
+        else
+        {
             q++;
         }
     }
     if (s == candidate_count - q)
     {
         k = true;
-    } else {
+    }
+    else
+    {
         k = false;
     }
     return k;
@@ -235,11 +241,11 @@ void eliminate(int min)
 {
     for (int x = 0; x < candidate_count; x++)
     {
-            if (candidates[x].votes == min)
-            {
-                candidates[x].eliminated = true;
-            }
-            candidates[x].votes = 0;
+        if (candidates[x].votes == min)
+        {
+            candidates[x].eliminated = true;
+        }
+        candidates[x].votes = 0;
     }
     return;
 }
