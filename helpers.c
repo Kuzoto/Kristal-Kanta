@@ -48,6 +48,10 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
     {
         for(int i = 1; i < reflectW; i++)
         {
+            if (width == 2)
+            {
+                break;
+            }
             int t = 0;
             int originalRed = image[x][i].rgbtRed;
             int originalGreen = image[x][i].rgbtGreen;
