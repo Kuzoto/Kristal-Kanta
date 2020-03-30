@@ -48,7 +48,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
     {
         for(int i = 1; i < reflectW; i++)
         {
-            if (width == 2)
+            if (width == 1)
             {
                 break;
             }
