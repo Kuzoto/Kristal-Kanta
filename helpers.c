@@ -27,7 +27,7 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
     int RGBavg;
     for(int x = 0; x < height; x++)
     {
-        for(int i = 1; i < width; i++)
+        for(int i = 0; i < width; i++)
         {
             double sepiaRed = .393 * image[x][i].rgbtRed + .769 * image[x][i].rgbtGreen + .189 * image[x][i].rgbtBlue;
             double sepiaGreen = .349 * image[x][i].rgbtRed + .686 * image[x][i].rgbtGreen + .168 * image[x][i].rgbtBlue;
