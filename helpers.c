@@ -1,9 +1,9 @@
 #include "helpers.h"
-
+#include <math.h>
 // Convert image to grayscale
 void grayscale(int height, int width, RGBTRIPLE image[height][width])
 {
-    int RGBavg;
+    double RGBavg;
     for(int x = 0; x < height; x++)
     {
         for(int i = 0; i < width; i++)
@@ -13,9 +13,9 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
             {
                 break;
             }
-            image[x][i].rgbtRed = RGBavg/3;
-            image[x][i].rgbtGreen = RGBavg/3;
-            image[x][i].rgbtBlue = RGBavg/3;
+            image[x][i].rgbtRed = ceil(RGBavg/3);
+            image[x][i].rgbtGreen = ceil(RGBavg/3);
+            image[x][i].rgbtBlue = ceil(RGBavg/3);
         }
     }
     return;
@@ -32,9 +32,9 @@ void sepia(int height, int width, RGBTRIPLE image[height][width])
             int sepiaRed = .393 * image[x][i].rgbtRed + .769 * image[x][i].rgbtGreen + .189 * image[x][i].rgbtBlue;
             int sepiaGreen = .349 * image[x][i].rgbtRed + .686 * image[x][i].rgbtGreen + .168 * image[x][i].rgbtBlue;
             int sepiaBlue = .272 * image[x][i].rgbtRed + .534 * image[x][i].rgbtGreen + .131 * image[x][i].rgbtBlue;
-            image[x][i].rgbtRed = sepiaRed % 255;
-            image[x][i].rgbtGreen = sepiaGreen % 255;
-            image[x][i].rgbtBlue = sepiaBlue % 255;
+            image[x][i].rgbtRed = ceil(sepiaRed % 255);
+            image[x][i].rgbtGreen = ceil(sepiaGreen % 255);
+            image[x][i].rgbtBlue = ceil(sepiaBlue % 255);
         }
     }
     return;
