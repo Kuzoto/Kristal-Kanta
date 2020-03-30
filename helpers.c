@@ -4,9 +4,9 @@
 void grayscale(int height, int width, RGBTRIPLE image[height][width])
 {
     double RGBavg;
-    for(int x = 0; x < height; x++)
+    for(int x = 1; x < height; x++)
     {
-        for(int i = 1; i < width; i++)
+        for(int i = 0; i < width; i++)
         {
             RGBavg = image[x][i].rgbtRed + image[x][i].rgbtGreen + image[x][i].rgbtBlue;
             if (RGBavg == 50)
