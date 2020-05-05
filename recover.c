@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     if (f == NULL)
     {
         printf("Could not open card.\n");
-        return 2;
+        return 1;
     }
     
     // create buffer
