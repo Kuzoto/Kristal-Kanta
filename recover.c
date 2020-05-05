@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-    FILE* f = fopen(argv[1], "r");
+    FILE *f = fopen(argv[1], "r");
     if (f == NULL)
     {
         printf("Could not open card.\n");
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     // filename counter
     int x = 0;
     
-    FILE* img = NULL; 
+    FILE *img = NULL; 
     
     // check if we've found a jpeg yet or not
     int i = 0; //false
