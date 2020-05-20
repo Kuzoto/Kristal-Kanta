@@ -49,7 +49,6 @@ bool check(const char *word)
         {
             if (strcmp(copy, arrow->word) == 0)
             {
-                free(copy);
                 return true;
             }
             arrow = arrow->next;
@@ -57,12 +56,10 @@ bool check(const char *word)
 
         if (strcmp(copy, arrow->word) == 0)
         {
-            free(copy);
             return true;
         }
         arrow = arrow->next;
     }
-    free(copy);
     return false;
 }
 
@@ -115,7 +112,6 @@ bool load(const char *dictionary)
     	    arrow->next = temp;
     	}
     	words++;
-    	free(temp);
     }
 
     fclose(df);
