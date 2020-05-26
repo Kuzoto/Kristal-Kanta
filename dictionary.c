@@ -21,7 +21,8 @@ node;
 const unsigned int N = 65536;
 
 int words;
-
+node *arrow = NULL;
+node *temp = NULL;
 // Hash table
 node *table[N];
 
@@ -43,12 +44,13 @@ bool check(const char *word)
     node *init = table[index];
     if (init)
     {
-        node *arrow = init;
+        arrow = init;
 
         while (arrow->next != NULL)
         {
             if (strcmp(copy, arrow->word) == 0)
             {
+                free(copy);
                 return true;
             }
             arrow = arrow->next;
@@ -56,18 +58,21 @@ bool check(const char *word)
 
         if (strcmp(copy, arrow->word) == 0)
         {
+            free(copy);
             return true;
         }
         arrow = arrow->next;
     }
+    free(copy);
     return false;
 }
 
 // Hashes word to a number
 unsigned int hash(const char *word)
 {
+    int n = strlen(word);
     unsigned int h = 0;
-    for (int i = 0, n = strlen(word); i < n; i++)
+    for (int i = 0; i < n; i++)
         h = (h << 2) ^ word[i];
     return h % N;
 }
@@ -83,14 +88,16 @@ bool load(const char *dictionary)
     }
 
     char buffer[LENGTH+2];;
-    int i = 0;
+    int i = 1;
     
+   //node *list = NULL;
+
     while (fgets(buffer, sizeof(buffer), df))
     {
         buffer[strlen(buffer) - 1] = '\0';
-        
-        node *temp = malloc(sizeof(node));
-        
+
+        temp = malloc(sizeof(node));
+
         strncpy(temp->word, buffer, LENGTH + 1);
     	temp->next = NULL;
 
@@ -103,7 +110,7 @@ bool load(const char *dictionary)
     	}
     	else
     	{
-    	    node *arrow = table[index];
+    	    arrow = table[index];
 
     	    while (arrow->next != NULL)
     	    {
@@ -127,17 +134,19 @@ unsigned int size(void)
 // Unloads dictionary from memory, returning true if successful else false
 bool unload(void)
 {
-    for (int i = 0; i < N; i++)
-    {
-        node *arrow = table[i];
-        if (arrow)
+    //for (int i = 0; i < N; i++)
+    //{
+        //node *arrow = table[i];
+        while (arrow != NULL)
         {
-            node *temp = arrow->next;
+            node *tmp = arrow->next;
 
             free(arrow);
 
-            arrow = temp;
+            arrow = tmp;
+            
+            free(temp);
         }
-    }
+    //}
     return true;
 }
