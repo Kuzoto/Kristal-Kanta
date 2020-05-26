@@ -145,7 +145,7 @@ bool unload(void)
             node *temp = arrow->next;
 
             // free the current node
-            //free(temp);
+            free(temp);
             free(arrow);
             // move the arrow to the next node
             arrow = temp;
