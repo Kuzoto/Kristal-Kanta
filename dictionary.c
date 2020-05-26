@@ -88,10 +88,8 @@ bool load(const char *dictionary)
     }
 
     char buffer[LENGTH+2];;
-    int i = 1;
+    int i = 0;
     
-   //node *list = NULL;
-
     while (fgets(buffer, sizeof(buffer), df))
     {
         buffer[strlen(buffer) - 1] = '\0';
@@ -118,6 +116,7 @@ bool load(const char *dictionary)
     	    }
     	    arrow->next = temp;
     	}
+    	free(temp);
     	words++;
     }
 
@@ -144,8 +143,8 @@ bool unload(void)
             free(arrow);
 
             arrow = tmp;
-            
-            free(temp);
+
+            //free(temp);
         }
     //}
     return true;
