@@ -9,6 +9,8 @@
 
 #include "dictionary.h"
 
+#define HASHTABLE_SIZE 65536
+
 // Represents a node in a hash table
 typedef struct node
 {
@@ -21,10 +23,10 @@ node;
 const unsigned int N = 65536;
 
 int words;
-node *arrow = NULL;
-node *temp = NULL;
+//node *arrow = NULL;
+//node *temp = malloc(sizeof(node));
 // Hash table
-node *table[N];
+node *table[HASHTABLE_SIZE] = {NULL};
 
 // Returns true if word is in dictionary else false
 bool check(const char *word)
@@ -44,7 +46,7 @@ bool check(const char *word)
     node *init = table[index];
     if (init)
     {
-        arrow = init;
+        node *arrow = init;
 
         while (arrow->next != NULL)
         {
@@ -74,7 +76,7 @@ unsigned int hash(const char *word)
     unsigned int h = 0;
     for (int i = 0; i < n; i++)
         h = (h << 2) ^ word[i];
-    return h % N;
+    return h % HASHTABLE_SIZE;
 }
 
 // Loads dictionary into memory, returning true if successful else false
@@ -94,7 +96,7 @@ bool load(const char *dictionary)
     {
         buffer[strlen(buffer) - 1] = '\0';
 
-        temp = malloc(sizeof(node));
+        node *temp = malloc(sizeof(node));
 
         strncpy(temp->word, buffer, LENGTH + 1);
     	temp->next = NULL;
@@ -108,7 +110,7 @@ bool load(const char *dictionary)
     	}
     	else
     	{
-    	    arrow = table[index];
+    	    node *arrow = table[index];
 
     	    while (arrow->next != NULL)
     	    {
@@ -116,7 +118,6 @@ bool load(const char *dictionary)
     	    }
     	    arrow->next = temp;
     	}
-    	free(temp);
     	words++;
     }
 
@@ -133,19 +134,23 @@ unsigned int size(void)
 // Unloads dictionary from memory, returning true if successful else false
 bool unload(void)
 {
-    //for (int i = 0; i < N; i++)
-    //{
-        //node *arrow = table[i];
-        while (arrow != NULL)
+
+    for (int i = 0; i < HASHTABLE_SIZE; i++)
+    {
+
+        node *arrow = table[i];
+
+        if (arrow)
         {
-            node *tmp = arrow->next;
+            node *temp = arrow->next;
 
-            free(arrow);
-
-            arrow = tmp;
-
+            // free the current node
             //free(temp);
+            free(arrow);
+            // move the arrow to the next node
+            arrow = temp;
         }
-    //}
-    return true;
+    }
+return true;
+
 }
