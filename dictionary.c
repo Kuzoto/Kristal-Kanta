@@ -32,7 +32,7 @@ node *table[HASHTABLE_SIZE] = {NULL};
 bool check(const char *word)
 {
     int l = strlen(word);
-    char *copy = malloc(l);
+    char *copy = malloc(l+1);
 
     for (int i = 0; i < l; i++)
     {
