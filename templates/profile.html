@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+       <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- https://favicon.io/emoji-favicons/money-mouth-face/ -->
+        <link href="/static/favicon.ico" rel="icon">
+
+        <link href="/static/styles.css" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+        <title>C$50 Finance: Profile</title>
+        <style>
+            #stocks {
+              border-collapse: collapse;
+              width: 80%;
+            }
+
+            #stocks td, #stocks th {
+              border: 1px solid #ddd;
+              padding: 8px;
+            }
+
+            .stock {background-color: #f2f2f2;}
+
+            #stocks tr:hover {background-color: #ddd;}
+
+            #stocks th {
+              padding-top: 12px;
+              padding-bottom: 12px;
+              text-align: left;
+              background-color: red;
+              color: white;
+            }
+            * {
+              box-sizing: border-box;
+            }
+
+            /* Add a gray background color with some padding */
+            body {
+              font-family: Arial;
+              padding: 20px;
+              background: darkred;
+            }
+
+            /* Header/Blog Title */
+            .header {
+              padding: 30px;
+              font-size: 40px;
+              text-align: center;
+              background: white;
+            }
+
+            /* Create two unequal columns that floats next to each other */
+            /* Left column */
+            .leftcolumn {
+              float: left;
+              width: 70%;
+            }
+
+            /* Right column */
+            .rightcolumn {
+              float: left;
+              width: 25%;
+              padding-left: 20px;
+            }
+
+            /* Fake image */
+            .fakeimg {
+              position: relative;
+              background-color: #aaa;
+              width: 128px;
+              height: 128px;
+            }
+
+            /* Add a card effect for articles */
+            .card {
+               background-color: white;
+               padding: 20px;
+               margin-top: 20px;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+            /* Footer */
+            .footer {
+              padding: 20px;
+              text-align: center;
+              background: #ddd;
+              margin-top: 20px;
+            }
+
+            /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 800px) {
+              .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+              }
+            }
+            .fakeimg:hover .image {
+                opacity: 0.3;
+            }
+
+            .fakeimg:hover .middle {
+                opacity: 1;
+            }
+            .middle {
+              transition: .5s ease;
+              opacity: 0;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              text-align: center;
+            }
+            .text {
+              background-color: red;
+              color: white;
+              font-size: 16px;
+              padding: 8px 12px;
+            }
+            </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light border">
+            <a class="navbar-brand" href="/"><span class="blue">C</span><span class="red">$</span><span class="yellow">5</span><span class="green">0</span> <span class="red">Finance</span></a>
+            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                {% if session.user_id %}
+                    <ul class="navbar-nav mr-auto mt-2">
+                        <li class="nav-item"><a class="nav-link" href="/quote">Quote</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/buy">Buy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/sell?q=Symbol">Sell</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/history">History</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/money">Money</a></li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto mt-2">
+                        <li class="nav-item"><a class="nav-link" href="/logout">Log Out</a></li>
+                    </ul>
+                {% else %}
+                    <ul class="navbar-nav ml-auto mt-2">
+                        <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/login">Log In</a></li>
+                    </ul>
+                {% endif %}
+            </div>
+        </nav>
+
+<div class="header">
+  <h2>Profile</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>{{ username }}</h2>
+      <a href="/password">Change Password</a>
+      <div class="fakeimg">
+        <img src="{{ image }}" alt="error">
+        <div class="middle">
+          <div class="text"><a href="/image" style="text-decoration: none;">Change Image</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

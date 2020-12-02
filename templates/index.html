@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+<script src="https://crystallizedimagination.com/parallax-hero-image-master/js/modernizr.js"></script>
+<div class="cd-background-wrapper">
+	<figure class="cd-floating-background">
+    <table id="stocks">
+        <tr>
+            <th>Name</th>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+        {% for row in rows %}
+        <tr>
+            <td class="stock">{{ row["name"] }}</td>
+            <td class="stock">{{ row["symbol"] }}</td>
+            <td class="stock" onClick="window.location='/sell?q=this.innerHTML';">{{ row["shares"] }}</td>
+            <td class="stock">${{ row["price"] }}</td>
+            <td class="stock">${{ row["total"] }}</td>
+        </tr>
+        {% endfor %}
+        <tr>
+            <th>Cash</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th onClick="window.location='/money'">${{ cash }}</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>${{ overall }}</td>
+        </tr>
+    </table>
+    </figure>
+</div>
+<script src="https://crystallizedimagination.com/parallax-hero-image-master/js/jquery-2.1.1.js"></script>
+<script src="https://crystallizedimagination.com/parallax-hero-image-master/js/main.js"></script>
+{% endblock %}

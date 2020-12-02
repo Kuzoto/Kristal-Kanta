@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Money
+{% endblock %}
+
+{% block main %}
+    <form action="/money" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="num" placeholder="Credit Card Number" type="number">
+        </div>
+        <div class="form-group">
+            <input class="form-control" style="width: 78px;" name="expM" placeholder="Month" type="number" min=1 max=12>
+            <input class="form-control" style="width: 60px;" name="expY" placeholder="Year" type="number" min="{{ year }}" max="{{ year2 }}">
+            <input class="form-control" style="width: 58px;" name="CVV" placeholder="CVV" type="number" min=0 max=999>
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="deposit" placeholder="Money to Add" type="number" min=1>
+        </div>
+        <table style="padding: 8px; border-collapse: collapse; width: 93%;">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Cash: ${{ cash }}</td>
+        </tr>
+        </table>
+        <br>
+        <button class="btn btn-primary" type="submit">Deposit</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Change Image
+{% endblock %}
+
+{% block main %}
+    <form action="/image" method="post">
+        <div class="form-group">
+            <label>Profile Image(Link):</label>
+            <input autocomplete="off" autofocus class="form-control" name="image" type="url">
+        </div>
+        <button class="btn btn-primary" type="submit">Change</button>
+    </form>
+{% endblock %}
