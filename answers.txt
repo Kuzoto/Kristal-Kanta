@@ -1,0 +1,36 @@
+sort1 uses: Bubble
+
+How do you know?: Sort 1 took the longest time in both the Random and Reversed text files, but is the fastest for the Sorted text files
+
+sort2 uses: Merge
+
+How do you know?: Sort 2 took the shortest time in the Random and Reversed text files, but was slightly slower for the Sorted text files because it still splits the array and merges it
+
+sort3 uses: Selection
+
+How do you know?: Sort 3 was faster than Sort 1, but slower than Sort 2 in the Random and Reversed text files, but was the slowest for the Sorted text files
+
+
+Sort 1
+Random 5000: 0.110s
+Random 10000: 0.528s
+Reversed 5000: 0.106s
+Reversed 10000: 0.355s
+Sorted 5000: 0.009s
+Sorted 10000: 0.021s
+
+Sort 2
+Random 5000: 0.012s
+Random 10000: 0.021s
+Reversed 5000: 0.013s
+Reversed 10000: 0.019
+Sorted 5000: 0.010s
+Sorted 10000: 0.026s
+
+Sort 3
+Random 5000: 0.050s
+Random 10000: 0.230s
+Reversed 5000: 0.064s
+Reversed 10000: 0.230s
+Sorted 5000: 0.033s
+Sorted 10000: 0.239s
