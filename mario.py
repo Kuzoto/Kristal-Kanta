@@ -4,8 +4,9 @@ def main():
 def get_positive_int():
     while True:
         n = int(input("Positive Integer: "))
-        if n > 0:
-            break
+        if int(n):    
+            if n > 0 || n < 9:
+                break
     return n
         
 def mario():
@@ -17,7 +18,7 @@ def mario():
                 print(" ", end="")
             else:
                 print("#", end="")
-        print(" ", end="")
+        print("  ", end="")
         for i in range(x):
             if i >= x-s+1:
                 print(" ", end="")
