@@ -5,7 +5,7 @@ def get_positive_int():
     while True:
         n = int(input("Positive Integer: "))
         if int(n):    
-            if n > 0 || n < 9:
+            if n > 0 and n < 9:
                 break
     return n
         
