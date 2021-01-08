@@ -21,10 +21,9 @@ def mario():
         print("  ", end="")
         for i in range(x):
             if i >= x-s+1:
-                print(" ", end="")
+                print("")
             else:
                 print("#", end="")
-        print("")
         s -= 1
 
 
