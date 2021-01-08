@@ -6,9 +6,8 @@ def main():
 def get_positive_int():
     while True:
         n = cs50.get_int("Positive Integer: ")
-        if cs50.isdigit(n):    
-            if n > 0 && n < 9:
-                break
+        if cs50.isdigit(n) and n > 0 and n < 9:    
+            break
     return n
         
 def mario():
