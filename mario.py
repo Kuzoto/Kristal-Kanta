@@ -1,10 +1,12 @@
+import cs50
+
 def main():
     mario()
 
 def get_positive_int():
     while True:
-        n = int(input("Positive Integer: "))
-        if int(n):    
+        n = cs50.get_int("Positive Integer: ")
+        if cs50.isdigit(n):    
             if n > 0 and n < 9:
                 break
     return n
