@@ -128,8 +128,8 @@ if len(sys.argv) == 3:
             pos += 4
         pos = txt.find('TCTG', pos)
     #open dna counts for small.csv and check for a name
-    if sys.argv[1] == "dna/databases/small.csv":
-        with open("dna/databases/small.csv", 'r') as csvfile:
+    if sys.argv[1] == "databases/small.csv":
+        with open("databases/small.csv", 'r') as csvfile:
             data = csv.reader(csvfile, delimiter=',')
             for column in data:
                 if column[0] != 'name':
@@ -140,7 +140,7 @@ if len(sys.argv) == 3:
                 print("No match")
     else:
         #if large.csv is arg then open csv file and check whos dna it is
-        with open("dna/databases/large.csv", 'r') as csvfile:
+        with open("databases/large.csv", 'r') as csvfile:
             data = csv.reader(csvfile, delimiter=',')
             for column in data:
                 if column[0] != 'name':
