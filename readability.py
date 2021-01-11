@@ -18,7 +18,8 @@ def sortText():  # scan text for the different key words and symbols
             lNum += 1
             spaces = 0
             words = 0
-        elif user[i] == '?' or user[i] == '!' or user[i] == '.' and user[i-1].isalnum():  # checks if the current character is a period, exclamation mark, or question mark and the previous character was alpha numeric
+        # checks if the current character is a period, exclamation mark, or question mark and the previous character was alpha numeric
+        elif user[i] == '?' or user[i] == '!' or user[i] == '.' and user[i-1].isalnum(): 
             sNum += 1 
             spaces = 0
             words = 0
@@ -44,8 +45,7 @@ def gradeText(lNum, wNum, sNum):
     elif index >= 16:
         print("Grade 16+")  # prints that the grade is over 16
     else:
-        print("Index Error: Neanderthal\nGrading has returned", round(index),
-        "due to an error.")  # prints an error when the grade is invalid
+        print("Index Error: Neanderthal\nGrading has returned", round(index), "due to an error.")
         response = cs50.get_string("Would you like to exit the program or retry?(exit/restart)")
         if response == "exit":
             return "exited"
