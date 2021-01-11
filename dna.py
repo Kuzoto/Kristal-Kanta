@@ -4,7 +4,7 @@ import sys
 import time
 import pandas as pd
 
-#active sequence counter
+# active sequence counter
 AGATC = 0
 TTTTTTCT = 0
 AATG = 0
@@ -14,7 +14,7 @@ TATC = 0
 GAAA = 0
 TCTG = 0
 
-#most repeats counter
+# most repeats counter
 rAGATC = 0
 rTTTTTTCT = 0
 rAATG = 0
@@ -24,25 +24,25 @@ rTATC = 0
 rGAAA = 0
 rTCTG = 0
 
-#checks if there are 3 arguments
+# checks if there are 3 arguments
 if len(sys.argv) == 3:
-    csvf = open(sys.argv[1], "r")
-    txtf = open(sys.argv[2], "r")
-    txt = txtf.read()
-    #loads dna sequence and checks for repeats
+    csvf = open(sys.argv[1], "r")  # opens csv file
+    txtf = open(sys.argv[2], "r")  # opens text file
+    txt = txtf.read()  # reads text file
+    # loads dna sequence and checks for repeats
     for i in range(len(txt)):
-        if txt[i:i+4] == "AATG":
+        if txt[i:i+4] == "AATG":  # checks AATG repeats in the text file
             for x in range(i, len(txt), 4):
-                if txt[x:x+4] == "AATG":
+                if txt[x:x+4] == "AATG": 
                     AATG += 1
                 else:
                     if AATG > rAATG:
                         rAATG = AATG
                     AATG = 0
                     break
-    #loads dna sequence and checks for repeats
+    # loads dna sequence and checks for repeats
     for i in range(len(txt)):
-        if txt[i:i+5] == "AGATC":
+        if txt[i:i+5] == "AGATC":  # checks AGATC repeats in the text file
             for x in range(i, len(txt), 5):
                 if txt[x:x+5] == "AGATC":
                     AGATC += 1
@@ -51,9 +51,9 @@ if len(sys.argv) == 3:
                         rAGATC = AGATC
                     AGATC = 0
                     break
-    #loads dna sequence and checks for repeats
+    # loads dna sequence and checks for repeats
     for i in range(len(txt)):
-        if txt[i:i+4] == "GATA":
+        if txt[i:i+4] == "GATA":  # checks GATA repeats in the text file
             for x in range(i, len(txt), 4):
                 if txt[x:x+4] == "GATA":
                     GATA += 1
@@ -62,11 +62,11 @@ if len(sys.argv) == 3:
                         rGATA = GATA
                     GATA = 0
                     break
-    #goes to first position of GAAA and starts counting
+    # goes to first position of GAAA and starts counting
     pos = txt.find('GAAA')
     while pos >= 0:
         for x in range(pos, len(txt), 4):
-            if txt[x:x+4] == "GAAA":
+            if txt[x:x+4] == "GAAA":  # checks GAAA repeats in the text file
                 GAAA += 1
             else:
                 if GAAA > rGAAA:
@@ -75,11 +75,11 @@ if len(sys.argv) == 3:
                 break
             pos += 4
         pos = txt.find('GAAA', pos)
-    #goes to first position of TATC and starts
+    # goes to first position of TATC and starts
     pos = txt.find('TATC')
     while pos >= 0:
         for x in range(pos, len(txt), 4):
-            if txt[x:x+4] == "TATC":
+            if txt[x:x+4] == "TATC":  # checks TATC repeats in the text file
                 TATC += 1
             else:
                 if TATC > rTATC:
@@ -88,11 +88,11 @@ if len(sys.argv) == 3:
                 break
             pos += 4
         pos = txt.find('TATC', pos)
-    #goes to first position of TCTAG and starts
+    # goes to first position of TCTAG and starts
     pos = txt.find('TCTAG')
     while pos >= 0:
         for x in range(pos, len(txt), 5):
-            if txt[x:x+5] == "TCTAG":
+            if txt[x:x+5] == "TCTAG":  # checks TCTAG repeats in the text file
                 TCTAG += 1
             else:
                 if TCTAG > rTCTAG:
@@ -101,11 +101,11 @@ if len(sys.argv) == 3:
                 break
             pos += 5
         pos = txt.find('TCTAG', pos)
-    #goes to first position of TTTTTTCT and starts
+    # goes to first position of TTTTTTCT and starts
     pos = txt.find('TTTTTTCT')
     while pos >= 0:
         for x in range(pos, len(txt), 8):
-            if txt[x:x+8] == "TTTTTTCT":
+            if txt[x:x+8] == "TTTTTTCT":  # checks TTTTTTCT repeats in the text file
                 TTTTTTCT += 1
             else:
                 if TTTTTTCT > rTTTTTTCT:
@@ -114,11 +114,11 @@ if len(sys.argv) == 3:
                 break
             pos += 8
         pos = txt.find('TTTTTTCT', pos)
-    #goes to first position of TCTG and starts
+    # goes to first position of TCTG and starts
     pos = txt.find('TCTG')
     while pos >= 0:
         for x in range(pos, len(txt), 4):
-            if txt[x:x+4] == "TCTG":
+            if txt[x:x+4] == "TCTG":  # checks TCTG repeats in the text file
                 TCTG += 1
             else:
                 if TCTG > rTCTG:
@@ -127,29 +127,29 @@ if len(sys.argv) == 3:
                 break
             pos += 4
         pos = txt.find('TCTG', pos)
-    #open dna counts for small.csv and check for a name
-    if sys.argv[1] == "databases/small.csv":
-        with open("databases/small.csv", 'r') as csvfile:
+    # open dna counts for small.csv and check for a name
+    if sys.argv[1] == "databases/small.csv":  # opens the database in the command-line arguement
+        with open("databases/small.csv", 'r') as csvfile: 
             data = csv.reader(csvfile, delimiter=',')
             for column in data:
                 if column[0] != 'name':
                     if int(column[1]) == rAGATC and int(column[2]) == rAATG and int(column[3]) == rTATC:
-                        print(column[0])
+                        print(column[0])  # print name if repeat counts match
                         i = 1
             if i != 1:
                 print("No match")
     else:
-        #if large.csv is arg then open csv file and check whos dna it is
-        with open("databases/large.csv", 'r') as csvfile:
+        # if large.csv is arg then open csv file and check whos dna it is
+        with open("databases/large.csv", 'r') as csvfile:  # opens the database in the command-line arguement
             data = csv.reader(csvfile, delimiter=',')
             for column in data:
                 if column[0] != 'name':
                     if int(column[1]) == rAGATC and int(column[2]) == rTTTTTTCT and int(column[3]) == rAATG and int(column[4]) == rTCTAG and int(column[5]) == rGATA and int(column[6]) == rTATC and int(column[7]) == rGAAA and int(column[8]) == rTCTG:
-                        print(column[0])
+                        print(column[0])  # print name if repeat counts match
                         i = 1
-            #if no matches print no matches
+            # if no matches print no matches
             if i != 1:
                 print("No match")
 else:
-    #error code for missing command arguments
+    # error code for missing command arguments
     print("Error too Few Command-Line Arguments\nError Code: Elf")
