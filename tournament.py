@@ -22,7 +22,7 @@ def main():
             if column[0] != "team":  # don't add column names into either variable
                 teams.append({"team": column[0], "rating": column[1]})  # append each team and their rating into the teams list as a dict
                 counts.update({column[0]: 0})  # append each team name into counts as a key with initial value 0
-
+    
     # Simulates N tournaments
     for x in range(N):
         simulate_tournament(teams)
@@ -62,6 +62,7 @@ def simulate_tournament(teams):
 
 
     counts[winner[0]["team"]] = counts.get(winner[0]["team"]) + 1  # increment the winning teams win count
+    return counts.get(winner[0]["team"])
 
 if __name__ == "__main__":
     main()
