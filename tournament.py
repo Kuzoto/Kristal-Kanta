@@ -25,7 +25,8 @@ def main():
     
     # Simulates N tournaments
     for x in range(N):
-        simulate_tournament(teams)
+        champ = simulate_tournament(teams)
+        counts[champ] = counts.get(champ) + 1  # increment the winning teams win count
 
     # Print each team's chances of winning, according to simulation
     for team in sorted(counts, key=lambda team: counts[team], reverse=True):
@@ -60,8 +61,6 @@ def simulate_tournament(teams):
     while len(winner) > 1:  # repeat round simulate until there is one winner
         winner = simulate_round(winner)  # simulate the new round with the previous rounds winners
 
-
-    counts[winner[0]["team"]] = counts.get(winner[0]["team"]) + 1  # increment the winning teams win count
     return winner[0]["team"]
 
 if __name__ == "__main__":
