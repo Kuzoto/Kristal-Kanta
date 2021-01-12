@@ -62,7 +62,7 @@ def simulate_tournament(teams):
 
 
     counts[winner[0]["team"]] = counts.get(winner[0]["team"]) + 1  # increment the winning teams win count
-    return counts.get(winner[0]["team"])
+    return winner[0]["team"]
 
 if __name__ == "__main__":
     main()
