@@ -9,6 +9,7 @@ N = 100
 x = 0
 counts = {}
 
+
 def main():
 
     # Ensure correct usage
@@ -20,13 +21,14 @@ def main():
         data = csv.reader(csvfile, delimiter=',')  # read csvfile into data
         for column in data:  # run once for each row in csvfile
             if column[0] != "team":  # don't add column names into either variable
-                teams.append({"team": column[0], "rating": column[1]})  # append each team and their rating into the teams list as a dict
+                # append each team and their rating into the teams list as a dict
+                teams.append({"team": column[0], "rating": column[1]})
                 counts.update({column[0]: 0})  # append each team name into counts as a key with initial value 0
     
     # Simulates N tournaments
     for x in range(N):
         champ = simulate_tournament(teams)
-        counts[champ] = counts.get(champ) + 1  # increment the winning teams win count
+        counts[champ] = counts.get(champ) + 1  # increment the winning team's win count
 
     # Print each team's chances of winning, according to simulation
     for team in sorted(counts, key=lambda team: counts[team], reverse=True):
@@ -62,6 +64,7 @@ def simulate_tournament(teams):
         winner = simulate_round(winner)  # simulate the new round with the previous rounds winners
 
     return winner[0]["team"]
+
 
 if __name__ == "__main__":
     main()
