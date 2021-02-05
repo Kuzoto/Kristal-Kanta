@@ -1,0 +1,624 @@
+[13-Jan-2021 18:14:25 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: No token provided in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagination.co in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[13-Jan-2021 18:15:18 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: No token provided in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagination.co in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[13-Jan-2021 18:15:19 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: No token provided in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagination.co in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[13-Jan-2021 23:42:29 UTC] PHP Parse error:  syntax error, unexpected '$trackURL' (T_VARIABLE), expecting ',' or ';' in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 39
+[14-Jan-2021 00:00:00 UTC] PHP Parse error:  syntax error, unexpected '$trackURL' (T_VARIABLE) in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 21
+[14-Jan-2021 00:00:46 UTC] PHP Parse error:  syntax error, unexpected '$trackURL' (T_VARIABLE) in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 21
+[14-Jan-2021 00:00:55 UTC] PHP Parse error:  syntax error, unexpected '$trackURL' (T_VARIABLE) in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 21
+[14-Jan-2021 00:02:52 UTC] PHP Parse error:  syntax error, unexpected '$trackURL' (T_VARIABLE) in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 21
+[14-Jan-2021 00:03:17 UTC] PHP Parse error:  syntax error, unexpected '$trackURL' (T_VARIABLE) in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 21
+[14-Jan-2021 00:31:33 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Player command failed: Premium required in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 403)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->sendRequest('PUT', in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 01:25:05 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Player command failed: Premium required in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 403)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->sendRequest('PUT', in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 01:30:54 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Player command failed: Premium required in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 403)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->sendRequest('PUT', in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 01:31:00 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Player command failed: Premium required in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 403)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->sendRequest('PUT', in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 01:31:01 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Player command failed: Premium required in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 403)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->sendRequest('PUT', in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 17:20:07 UTC] PHP Parse error:  syntax error, unexpected '$trackURL' (T_VARIABLE) in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 22
+[14-Jan-2021 18:41:15 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:16 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:16 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:16 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:17 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:17 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:17 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:18 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:18 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:18 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:18 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:19 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:38 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:38 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:39 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:39 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:39 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:39 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:39 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:40 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:40 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:40 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:41 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:41 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:41 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:41:48 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:08 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:08 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:08 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:08 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:08 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:09 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:09 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:09 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:09 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:10 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:10 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:10 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:10 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:10 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:11 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:24 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:25 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:25 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:25 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:25 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:26 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:26 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:26 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:26 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:26 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:26 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:26 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:27 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[14-Jan-2021 18:42:27 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/track/$id in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->send in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[21-Jan-2021 17:54:14 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIAuthException: Invalid authorization code in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:66
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(116): SpotifyWebAPI\Request->send('POST', 'https://account...', 'client_id=352f0...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Session.php(248): SpotifyWebAPI\Request->account('POST', '/api/token', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/callback.php(21): SpotifyWebAPI\Session->requestAccessToken('AQB53j4DAZePSvU...')
+#4 {main}
+  thrown in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 66
+[21-Jan-2021 18:06:33 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 43
+[21-Jan-2021 18:07:03 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Permissions missing in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me/player', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1034): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me/player', Array)
+#4 /home/customer/www/spotify.cry in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[21-Jan-2021 18:22:06 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Malformed json in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '[]', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '[]', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->sendRequest('PUT', '/v1/me/player/p...', '[]', Array)
+#4 /home/customer/www in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[21-Jan-2021 20:42:15 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Malformed json in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '[]', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '[]', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->sendRequest('PUT', '/v1/me/player/p...', '[]', Array)
+#4 /home/customer/www in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[21-Jan-2021 20:42:38 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Malformed json in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '[]', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '[]', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->sendRequest('PUT', '/v1/me/player/p...', '[]', Array)
+#4 /home/customer/www in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[21-Jan-2021 21:17:25 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Invalid track uri: https://play.spotify.com/playlist/5zVwp6ZsTlIxVfFhNEy5Tj?si=MuDF9fhpQ-67XO19Bhb91A in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["https...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["https...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWeb in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[21-Jan-2021 21:21:05 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ']' in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 32
+[21-Jan-2021 22:33:09 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Player command failed: No active device found in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 404)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["spoti...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["spoti...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->sendRequest( in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[21-Jan-2021 22:33:57 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Player command failed: No active device found in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 404)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["spoti...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["spoti...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->sendRequest( in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[21-Jan-2021 22:34:42 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 37
+[21-Jan-2021 22:36:46 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 36
+[21-Jan-2021 22:37:25 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: Player command failed: No active device found in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 404)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('PUT', 'https://api.spo...', '{"uris":["spoti...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('PUT', '/v1/me/player/p...', '{"uris":["spoti...', Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1649): SpotifyWebAPI\SpotifyWebAPI->sendRequest( in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[22-Jan-2021 17:11:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 70
+[22-Jan-2021 17:34:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php:87
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 87
+[22-Jan-2021 17:36:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 80
+[22-Jan-2021 17:37:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 80
+[22-Jan-2021 17:40:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 80
+[22-Jan-2021 20:07:47 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[25-Jan-2021 17:22:01 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: No token provided in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagination.co in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[25-Jan-2021 17:22:19 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: No token provided in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagination.co in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[25-Jan-2021 17:38:41 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: No token provided in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagination.co in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[25-Jan-2021 18:08:36 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: No token provided in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagination.co in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[25-Jan-2021 19:03:12 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[25-Jan-2021 19:03:15 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[25-Jan-2021 19:03:16 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIAuthException: Authorization code expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:66
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(116): SpotifyWebAPI\Request->send('POST', 'https://account...', 'client_id=352f0...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Session.php(248): SpotifyWebAPI\Request->account('POST', '/api/token', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/callback.php(21): SpotifyWebAPI\Session->requestAccessToken('AQCU74nQtOhyAr0...')
+#4 {main}
+  thrown in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 66
+[25-Jan-2021 19:03:18 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIAuthException: Authorization code expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:66
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(116): SpotifyWebAPI\Request->send('POST', 'https://account...', 'client_id=352f0...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Session.php(248): SpotifyWebAPI\Request->account('POST', '/api/token', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/callback.php(21): SpotifyWebAPI\Session->requestAccessToken('AQCU74nQtOhyAr0...')
+#4 {main}
+  thrown in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 66
+[25-Jan-2021 19:03:21 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIAuthException: Authorization code expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:66
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(116): SpotifyWebAPI\Request->send('POST', 'https://account...', 'client_id=352f0...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Session.php(248): SpotifyWebAPI\Request->account('POST', '/api/token', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/callback.php(21): SpotifyWebAPI\Session->requestAccessToken('AQCU74nQtOhyAr0...')
+#4 {main}
+  thrown in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 66
+[25-Jan-2021 19:03:21 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[26-Jan-2021 12:39:13 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: No token provided in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagination.co in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[26-Jan-2021 19:19:46 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[02-Feb-2021 21:18:31 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIAuthException: Invalid authorization code in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:66
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 400)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(116): SpotifyWebAPI\Request->send('POST', 'https://account...', 'client_id=352f0...', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Session.php(248): SpotifyWebAPI\Request->account('POST', '/api/token', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/callback.php(21): SpotifyWebAPI\Session->requestAccessToken('AQDD3-eVhsgbBE5...')
+#4 {main}
+  thrown in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 66
+[03-Feb-2021 18:34:21 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/customer/www/spotify.crystallizedimagination.com/public_html/app.php on line 314
+[03-Feb-2021 19:31:37 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[03-Feb-2021 19:31:41 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[03-Feb-2021 19:31:42 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[03-Feb-2021 20:36:33 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[03-Feb-2021 20:56:03 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[05-Feb-2021 20:27:03 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
+[05-Feb-2021 20:27:05 UTC] PHP Fatal error:  Uncaught SpotifyWebAPI\SpotifyWebAPIException: The access token expired in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php:57
+Stack trace:
+#0 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(276): SpotifyWebAPI\Request->parseBody(Object(stdClass), 401)
+#1 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php(138): SpotifyWebAPI\Request->send('GET', 'https://api.spo...', '', Array)
+#2 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(110): SpotifyWebAPI\Request->api('GET', '/v1/me', Array, Array)
+#3 /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php(1500): SpotifyWebAPI\SpotifyWebAPI->sendRequest('GET', '/v1/me')
+#4 /home/customer/www/spotify.crystallizedimagina in /home/customer/www/spotify.crystallizedimagination.com/public_html/vendor/jwilsson/spotify-web-api-php/src/Request.php on line 57
